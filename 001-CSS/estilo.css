@@ -3,10 +3,37 @@
     padding: 0;
 }
 
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(134, 134, 134);
+    transition: 1s;
+}
+
 main{
     width: 250px;
-    background-color: aquamarine;
+    background-color: black;
     padding: 20px;
     text-align: center;
     margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+main section{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
 }
