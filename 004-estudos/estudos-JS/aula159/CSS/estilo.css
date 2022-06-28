@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    width: 900px;
+    margin: 25px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main h1{
+    color: gray;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+main p{
+    text-indent: 1em;
+}
+
+pre{
+    width: 300px;
+    background-color: gray;
+    color: greenyellow;
+    margin: 10px auto;
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 250px;
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    margin: 15px auto;
+}
