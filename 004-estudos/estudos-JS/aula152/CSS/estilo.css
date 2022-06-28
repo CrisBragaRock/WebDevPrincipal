@@ -44,3 +44,11 @@ section{
 section ul{
     margin-left: 50px;
 }
+
+.var-correta{
+    color: greenyellow;
+}
+
+.var-errada{
+    color: rgb(224, 41, 41);
+}
