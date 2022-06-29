@@ -18,3 +18,26 @@ header a{
 header a:hover{
     text-decoration: underline;
 }
+
+main{
+    width: 500px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+section{
+    margin-block: 15px;
+}
+
+section a{
+    text-decoration: none;
+    color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding: 7px;
+}
+
+Section a:hover{
+    background-color: lightgray;
+    border-radius: 7px;
+}
