@@ -1,0 +1,16 @@
+section{
+    background-color: lightgray;
+    color: green;
+    width: 615px;
+    margin: auto;
+    height: 30px;
+    line-height: 30px;
+}
+
+h3{
+    text-align: center;
+}
+
+section.a{
+    text-align: center;
+}
