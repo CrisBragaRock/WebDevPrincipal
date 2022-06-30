@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+main{
+    width: 900px;
+    background-color: lightgray;
+    margin: auto;
+    padding: 5px 10px;
+}
+
+section{
+    width: 450px;
+    padding: 5px 10px;
+    background-color: lightgreen;
+    margin: 25px auto;
+}
+
+section h3{
+    text-align: center;
+}
