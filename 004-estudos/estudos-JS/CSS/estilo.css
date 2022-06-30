@@ -21,8 +21,10 @@ header a:hover{
 
 main{
     width: 500px;
-    margin: 25px auto;
-    text-align: center;
+    margin: 25px 25px 25px 25px;
+    background-color: lightgray;
+    padding: 5px;
+    float: left;
 }
 
 section{
@@ -38,6 +40,7 @@ section a{
 }
 
 Section a:hover{
-    background-color: lightgray;
+    background-color: white;
     border-radius: 7px;
+    transition: .8s;
 }
