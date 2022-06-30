@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 149</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>Aula 168 - Switch</title>
 </head>
 <body>
+
+    <h1>Switch</h1>
+
+    <main>
+        <p>
+            Assim como o comando if, o comando Switch é um condicional, ou seja, ele visa com base em uma determiada condição, seguir um determinado fluxo dentro da aplicação. Na verdade o comado Switch é realmente igual ao if, porém é escrito de uma maneira diferente, e nesse ponto ele nos auxilia no entendimento do código, já que a forma de escrita do comando Switch é mais intuitiva.
+        </p>
+
+        <p>
+            Ele é restrito porque só conseguimos fazer operações de comparação de indênticos, mas, em situações, por exemplo, de um menu, em que nesse menu é defindo o fluxo da aplicação, o comando Switch é bastante interessante porque ele organiza o nosso código de uma maneira muito mais fácil de entender.
+        </p>
+
+        <h3>Exemplo:</h3>
+
+        <section>
+            <code><pre>
+
+var opcao = 2
+
+switch (opcao) {
+    <span class="case">
+    case 1</span>:
+    //trecho de código que será executado
+    <span class="break">break</span>
     
+    <span class="case">
+    case 2</span>:
+    //trecho de código que será executado
+    <span class="break">break</span>
+    
+    <span class="case">
+    default</span>:
+    //trecho de código que será executado
+    <span class="break">break</span>
+    
+}
+                
+            </pre></code>
+        </section>
+
+        <p>
+            Entre os parenteses, nós passamos a opção, o valor que será utilizado como parâmetro de comparação nos <strong>cases</strong>. Essa opção, pode ser uma variável ou até mesmo um valor pré-definido.
+        </p>
+
+        <script src="JS/script.js"></script>
+    </main>
 </body>
 </html>

@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    background-color: lightgray;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+section{
+    background-color: white;
+    color: gray;
+}
+
+span.case {
+    color: lightcoral;
+}
+
+span.break {
+    color: blue;
+}
