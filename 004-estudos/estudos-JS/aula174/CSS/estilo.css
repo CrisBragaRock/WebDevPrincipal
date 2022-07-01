@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: lightgrey;
+    height: 35px;
+    line-height: 35px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+main{
+    background-color: lightgray;
+    width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+}
+
+main ol.descricoes{
+    margin-left: 25px;
+    list-style: inside;
+    margin: 10px;
+}
+
+section.resultado{
+    background-color: greenyellow;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    height: 50px;
+}
