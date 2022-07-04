@@ -1,18 +1,24 @@
-var num1 = 9
-var num2 = 2
+alert('Olá vamos fazer calcular juntos?')
 
+var operacao = prompt('Digite o tipo de operação que faremos: soma ou subtração.')
+var num1 = prompt('Você optou por fazer um cálculo de ' + operacao + '. Digite o primeiro número:')
+var num2 = prompt('Digite o segundo número:')
 
-//soma
-document.write('A soma entre ' + num1 + ' e ' + num2 + ' é: ' + (num1 + num2) + '<br>')
-//subtração
-document.write('A subtração entre ' + num1 + ' e ' + num2 + ' é: ' + (num1 - num2) + '<br>')
-// multiplicação
-document.write('A multiplicação entre ' + num1 + ' e ' + num2 + ' é: ' + (num1 * num2) + '<br>')
-// divisão
-document.write('A divisão entre ' + num1 + ' e ' + num2 + ' é: ' + (num1 / num2) + '<br>')
-// módulo
-document.write('O módulo entre ' + num1 + ' e ' + num2 + ' é: ' + (num1 % num2) + '<br>')
-//incremento
-document.write('O incremento de ' + num1 + ' é: ' + (++num1) + '<br>')
-//decremento
-document.write('A subtração entre ' + num2 + ' é: ' + (--num2) + '<br>')
+function calcular(num1, num2, operacao) {
+    num1 = parseFloat(num1)
+    num2 = parseFloat(num2)
+
+    var resultado = 0
+
+    if (operacao == 'soma') {
+        resultado = num1 + num2
+    }
+
+    if (operacao =='subtração') {
+        resultado = num1 - num2
+    }
+    
+    return resultado
+}
+
+document.write('O resultado é: ' + calcular(num1, num2, operacao))
