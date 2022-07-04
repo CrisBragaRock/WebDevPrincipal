@@ -44,3 +44,7 @@ Section a:hover{
     border-radius: 7px;
     transition: .8s;
 }
+
+section a:visited{
+    background-color: black;
+}
