@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 35px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 35px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*inicio dos links de projetos*/
+
+section{
+    width: 100%;
+    margin: 15px auto;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding-block: 10px;
+    border: 1px solid rgb(189, 189, 189);
+    display: ;
+}
+
+main a{
+    text-decoration: none;
+    color: #3e8;
+    font-weight: bold;
+    display: inline;
+}
+
+main a:hover{
+    color: rgb(38, 177, 100);
+}
