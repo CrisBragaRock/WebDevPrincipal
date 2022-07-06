@@ -1,3 +1,8 @@
-document.write(11 + 5 - 5 * 2 / 2 + '<br>')
+function fimTexto() {
+    document.getElementById('nome_usuario').style.backgroundColor = 'Lightgray'
+}
 
-document.write((11 + 5 - 5 * 2) / 2)
+function fimTextoTag() {
+    console.log(document.getElementsByTagName('campo_usuario'))
+}
+
