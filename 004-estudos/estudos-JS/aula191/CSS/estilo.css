@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 35px;
+    text-align: center;
+    background-color: lightgray;
+    line-height: 35px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*FIM AREA CABECALHO*/
+
+h1, h2{
+    text-align: center;
+    margin: 35px;
+}
+
+main{
+    width: 900px;
+    border: 2px solid gray;
+    margin: auto;
+    border-radius: 25px;
+    background-color: lightgray;
+}
+
+main p{
+    margin-inline: 25px;
+    margin-block: 5px;
+}

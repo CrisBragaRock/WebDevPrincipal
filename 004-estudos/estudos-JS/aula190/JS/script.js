@@ -7,5 +7,5 @@ function acao2() {
 }
 
 function acao3() {
-    alert('elemento modificado!')
+    alert('Elemento modificado!')
 }
