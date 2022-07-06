@@ -1,0 +1,13 @@
+#size{
+ width: 80%;
+ height: 100px;
+ background-color: brown;
+ margin: 15px auto;
+}
+
+#scroll{
+ width: 80%;
+ height: 400px;
+ background-color: gray;
+ margin: 15px auto;
+}

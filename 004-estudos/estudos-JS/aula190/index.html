@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 172 - OPERAÇÕES ARITMEÉTICAS NA OPERAÇÃO DE VALORES</title>
+    <title>Aula 189 - EVENTOS(FORMULÁRIO)</title>
 </head>
 <body>
 
@@ -12,8 +12,30 @@
         <a href="../index.html">Página de Aulas</a> | <a href="../../../index.html">Página inicial</a>
     </header>
 
-    <h1>OPERAÇÕES ARITMEÉTICAS NA OPERAÇÃO DE VALORES</h1>
+    <h1>EVENTOS(FORMULÁRIO)</h1>
 
+    <h2>Eventos:</h2>
+
+    <ul>
+        <li style="list-style: none; color: darkred; font-weight: bold;">onfocus:</li>
+            <p>
+                Acionado quando o elemento recebe o foco do cursor do mouse, ou seja, quando clicamos em um elemento de tal forma a aplicar o foco nele.
+            </p>
+        <li style="list-style: none; color: darkred; font-weight: bold;">onblur:</li>
+            <p>
+                Acionado quando o elemento perde o foco, ou seja, quando clicamos TAB ou clicamos fora do elemento. 
+            </p>
+        <li style="list-style: none; color: darkred; font-weight: bold;">onchange:</li>
+            <p>
+                Acionado quando o estado do elemento é modificado.
+            </p>
+    </ul>
+
+    <h2>Práticas:</h2>
+
+    <input type="text" onfocus="acao1()" placeholder="onfocus" id="foco" onblur="acao2()">
+
+    <input type="text" placeholder="onchange" id="change" onchange="acao3()">
 
     <script src="JS/script.js"></script>
 </body>

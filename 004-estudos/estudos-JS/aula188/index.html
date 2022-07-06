@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 172 - OPERAÇÕES ARITMEÉTICAS NA OPERAÇÃO DE VALORES</title>
+    <title>Aula 188 - EVENTOS(TECLADO)</title>
 </head>
 <body>
 
@@ -12,7 +12,36 @@
         <a href="../index.html">Página de Aulas</a> | <a href="../../../index.html">Página inicial</a>
     </header>
 
-    <h1>OPERAÇÕES ARITMEÉTICAS NA OPERAÇÃO DE VALORES</h1>
+    <h1>EVENTOS(TECLADO)</h1>
+
+    <main>
+        <h2>Eventos:</h2>
+        
+        <ul>
+            <li style="color: darkred; font-weight: bold; list-style: none;">onkeydown:</li>
+            <p> Acionado quando uma tecla é pressionada</p>
+            <li style="color: darkred; font-weight: bold; list-style: none;">onkeypress:</li>
+            <p> Acionado enquanto a tecla continua pressionada(<em>funciona somente para caracteres e nao para teclas especiais como o CTRL</em>)</p>
+            <li style="color: darkred; font-weight: bold; list-style: none;">onkeyup:</li>
+            <p> Acionado quando uma tecla é liberada</p>
+        </ul>
+
+        <h2>Práticas</h2>
+
+        <section style="margin:5px;">
+            <input type="text" onkeydown="acao1()" placeholder="onkeydown">
+        </section>
+
+        <section style="margin:5px;">
+            <input type="text" onkeyup="acao2()" placeholder="onkeyup">
+        </section>
+
+        <section style="margin:5px;">
+            <input type="text" onkeypress="acao3()" placeholder="onkeypress">
+        </section>
+    </main>
+
+
 
 
     <script src="JS/script.js"></script>
