@@ -1,3 +1,10 @@
-document.write(11 + 5 - 5 * 2 / 2 + '<br>')
+function verificarCaracter() {
+    //selecionar o valor digitado
+    var caracter = document.getElementById('entrada').value
+    
+    //limpar o campo de digitação
+    document.getElementById('entrada').value = ''
 
-document.write((11 + 5 - 5 * 2) / 2)
+    console.log(caracter)
+}
+
