@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 35px;
+    background-color: lightgray;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+main{
+    width: 900px;
+    margin: auto;
+    border: 2px solid lightgray;
+    padding: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+/*parte prática*/
+
+section#clique{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    margin: 7px;
+}
+
+section#dblclick{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    margin: 7px;
+}
+
+section#mouseup{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    margin: 7px;
+}
+
+section#mouseover{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    margin: 7px;
+}
+
+section#mouseout{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    margin: 7px;
+}

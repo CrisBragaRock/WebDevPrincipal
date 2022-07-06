@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 172 - OPERAÇÕES ARITMEÉTICAS NA OPERAÇÃO DE VALORES</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>Aula 187 - EVENTOS (MOUSE)</title>
 </head>
 <body>
 
@@ -12,7 +13,52 @@
         <a href="../index.html">Página de Aulas</a> | <a href="../../../index.html">Página inicial</a>
     </header>
 
-    <h1>OPERAÇÕES ARITMEÉTICAS NA OPERAÇÃO DE VALORES</h1>
+    <h1>EVENTOS (MOUSE)</h1>
+
+
+    <main>
+        <h2>Eventos:</h2>
+        <ul>
+            <li>
+                <span style="color: darkred; font-weight: bold;">onclick</span>: acionado quando o elemento é clicado.
+            </li>
+            <li>
+                <span style="color: darkred; font-weight: bold;">ondblclick</span>: acionado quando o elemento é clicado 2 vezes.
+            </li>
+            <li>
+                <span style="color: darkred; font-weight: bold;">onmouseup</span>: acionado quando o click sobre um determinado elemento é liberado.
+            </li>
+            <li>
+                <span style="color: darkred; font-weight: bold;">onmouseover</span>: acionado quando o cursor do mouse sobrepõe o elemento.
+            </li>
+            <li>
+                <span style="color: darkred; font-weight: bold;">onmouseout</span>: acionado quando o cursor do mouse sai da região da página ocupada pelo elemento.
+            </li>
+        </ul>
+        <h2>Práticas:</h2>
+
+        <section id="clique" onclick="acao()">
+            onclick
+        </section>
+
+        <section id="dblclick" ondblclick="acao()">
+            onclick
+        </section>
+
+        <section id="mouseup" onmouseup="acao()">
+            onclick
+        </section>
+
+        <section id="mouseover" onmouseover="acao()">
+            onclick
+        </section>
+
+        <section id="mouseout" onmouseout="acao()">
+            onclick
+        </section>
+    </main>
+
+
 
 
     <script src="JS/script.js"></script>
