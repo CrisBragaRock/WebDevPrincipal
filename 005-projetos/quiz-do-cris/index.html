@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.CSS">
+    <title>Quiz do Cris</title>
+</head>
+<body>
+
+<header>Quiz do Cris</header>
+
+    <main>
+        <section>
+
+            <input type="text" placeholder="Digite seu nome" id="nome">
+
+            <button id="start" onclick="start()">Começar</button>
+            
+            <div id="game" style="display: none;">
+                <div id="area-questoes1">
+                    <h3>01) Qual o nome dado a mistura entre rum e coca cola?</h3>
+                    <div id="respostas1">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li class="errada" onclick="respErrada()">Caipirinha</li>
+                            </span>
+                            <span class="resposta">
+                                <li class="errada" onclick="respErrada()">Samba</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li class="errada" onclick="respErrada()">Pé sujo</li>
+                            </span>
+                            <span class="resposta">
+                                <li class="errada" onclick="respErrada()">Caipiroska</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li id="q01c" onclick="acerto01()">Cuba Libre</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes2">
+                    <h3>02) Qual a área de um terreno com 8m² de comprimento e 12m² de largura?</h3>
+                    <div class="respostas">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li class="errada" onclick="respErrada2()">20m²</li>
+                            </span>
+                            <span class="resposta">
+                                <li class="errada" onclick="respErrada2()">98m²</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li class="errada" onclick="respErrada2()">12m²</li>
+                            </span>
+                            <span class="resposta">
+                                <li id="q02c" onclick="acerto02()">96m²</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li class="errada" onclick="respErrada2()">90m²</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes3">
+                    <h3>03) Qual coletivo de lobos?</h3>
+                    <div class="respostas">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li id="q03c" onclick="acerto03()">Alcateia</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada3()">Lobarada</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada3()">Clã</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada3()">Grupo</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada3()">Matilha</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes4">
+                    <h3>04) Qual o verdadeiro nome do cantor e compositor Ozzy Osbourne?</h3>
+                    <div class="respostas">
+                        <ol class="q2">
+                            <span class="resposta">
+                                <li onclick="respErrada4()">Olaf Osbourne</li>
+                            </span>
+                            <span class="resposta">
+                                <li id="q04c" onclick="acerto04()">John Osbourne</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada4()">Jhimy Osbourne</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada4()">Joe Osbourne</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada4()">Clarck Osbourne</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes5">
+                    <h3>05) Em que ano Pedro Álvares Cabral descobriu o Brasil?</h3>
+                    <div class="respostas">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li onclick="respErrada5()">1889</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada5()">1429</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada5()">1516</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada5()">1519</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li id="q05c" onclick="acerto05()">1500</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes6">
+                    <h3>06) Clube dos __. Termo que se refere à crença de que um número anormalmente alto de músicos da música popular morreram aos __ anos.</h3>
+                    <div class="respostas">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li onclick="respErrada6()">30</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada6()">44</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada6()">29</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada6()">32</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li id="q06c" onclick="acerto06()">27</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes7">
+                    <h3>07) Se todos os dias eu ganho R$1,00 mas, todos os dias gasto R$0,55. Quanto tempo levarei pra guardar R$3,60?</h3>
+                    <div class="respostas">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li id="q07c" onclick="acerto07()">8 dias</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada7()">5 dias</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada7()">Uma semana</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada7()">4 dias</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada7()">6 dias</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes8">
+                    <h3>08) Em uma sala quadrada, temos um gato em cada canto. Cada gato vê outros três gatos. Quantos gatos há no total dentro da sala?</h3>
+                    <div class="respostas">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li onclick="respErrada8()">2</li>
+                            </span>
+                            <span class="resposta">
+                                <li id="q08c" onclick="acerto08()">4</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada8()">6</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada8()">8</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada8()">10</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes9">
+                    <h3>09) Se uma borboleta vive cinco dias e a cada dia ela voa quatro metros, quantos metros ela terá percorrido em uma semana?</h3>
+                    <div class="respostas">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li onclick="respErrada9()">35 metros</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada9()">30 metros</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li id="q09c" onclick="acerto09()">20 metros</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada9()">25 metros</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada9()">50 metros</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+                <div id="area-questoes10">
+                    <h3>10) SACO está para ASCO assim como 7683 está para...</h3>
+                    <div class="respostas">
+                        <ol class="q1">
+                            <span class="resposta">
+                                <li onclick="respErrada10()">3867</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada10()">7638</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li onclick="respErrada10()">6738</li>
+                            </span>
+                            <span class="resposta">
+                                <li onclick="respErrada10()">7863</li>
+                            </span>
+                
+                            <span class="resposta">
+                                <li id="q10c" onclick="acerto10()">6783</li>
+                            </span>
+                        </ol>
+                    </div>
+                </div>
+            
+            
+            
+            <p id="score"></p>
+            
+            <button onclick="analise()" id="botao">Computar respostas</button>
+            </div>
+            
+
+        <script src="JS/script1.js"></script>
+        </section>
+        
+    </main>    
+</body>
+</html>

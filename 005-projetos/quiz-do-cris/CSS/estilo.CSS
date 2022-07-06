@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    font-size: 20px;
+    font-family: fantasy;    
+    background-image: radial-gradient(white , lightgray, gray, gray, gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header{
+    background-color: gray;
+    text-align: center;
+    font-size: 2em;
+    padding: 3px;
+}
+
+main{
+    width: 800px;
+    margin: 10px auto;
+    padding: 25px 10px 25px 10px;
+    border-radius: 20px;
+}
+
+main h1{
+    text-align: center;
+    color: darkblue;
+}
+
+main section{
+    width: 600px;
+    font-family: monospace;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    color: darkgreen;
+    padding: 10px;
+}
+
+#start{
+    padding: 5px;
+}
+
+.questions{
+    font-weight: 600;
+}
+
+.answers{
+    margin-bottom: 20px;
+}
+
+#submit{
+    
+}
+
+#nome{
+    margin: 0 auto 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#pontos{
+    height: 50px;
+}
+
+#area-questoes1, #area-questoes2, #area-questoes3, #area-questoes4, #area-questoes5, #area-questoes6, #area-questoes7, #area-questoes8, #area-questoes9, #area-questoes10 {
+    background-color: white;
+    padding: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.72);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.respostas {
+ text-align: start;
+ margin-left: 30px;
+}
+
+#botao{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: 20px;
+    color: white;
+    border: none;
+    background-color: #297;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#botao:hover{
+    background-color: #3a8;
+}
+
+ol li{
+    width: 115px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    list-style: none;
+    margin: 5px auto;
+}
+
+ol.q1 li:hover{
+    background-color: #3a8;
+    border-radius: 5px;
+}
+
+ol.q2 li{
+    width: 165px;
+}
+
+ol.q2 li:hover{
+    background-color: #3a8;
+    border-radius: 5px;
+}
+
+circle{
+    color: rgba(255, 0, 0, 0.409);
+}
