@@ -4,16 +4,16 @@
 }
 
 header{
-    text-align: center;
-    background-color: lightgrey;
     height: 35px;
     line-height: 35px;
+    background-color: lightgray;
+    text-align: center;
 }
 
 header a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;    
 }
 
 header a:hover{
@@ -21,18 +21,25 @@ header a:hover{
 }
 
 h1{
-    margin-top: 40px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 40px;
 }
 
 main{
     background-color: lightgray;
     width: 900px;
-    margin: 25px auto;
-    padding: 25px;
+    margin: auto;
+    padding: 15px;
     font-family: monospace;
-    text-align: center;
-    font-weight: bolder;
 }
 
+main p{
+    margin: 15px;
+}
+
+
+
+p.resultado{
+    text-align: center;
+    color: rgb(192, 137, 131);
+}

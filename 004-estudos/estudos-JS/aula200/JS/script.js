@@ -1,40 +1,29 @@
-//recebimento de paramatros do usuario
-var nome = prompt('Digite o seu nome:')
-var altura = prompt('Digite a sua altura em centímetros')
-var peso = prompt('Digite o seu peso:')
+var lista_roupas = Array()
 
-//conversao de dados
-peso = parseFloat(peso)
-altura = parseFloat(altura)
+lista_roupas['aaa'] = 'Calça1'
+lista_roupas['aab'] = 'Boné2'
+lista_roupas['aac'] = 'Chapéu3'
+lista_roupas['aad'] = 'Vestido4'
+lista_roupas['aae'] = 'Camiseta5'
+lista_roupas['aaf'] = 'Óculos6'
+lista_roupas['aag'] = 'Croped7'
+lista_roupas['aah'] = 'Camisa8'
+lista_roupas['aai'] = 'Bermuda9'
+lista_roupas['aaj'] = 'Meia10'
 
-//conversão de centímetros em metros
-altura = altura / 100
+console.log(lista_roupas)
 
-//cálculo da massa corporal e conversão do dado
-var massa = peso / (altura * altura)
-massa = parseFloat(massa)
+var lista_roupas2 = Array()
 
-//declaração da variavel nula propositonalmente
-var classificacao = null
+lista_roupas[0] = 'Calça1'
+lista_roupas[1] = 'Boné2'
+lista_roupas[2] = 'Chapéu3'
+lista_roupas[3] = 'Vestido4'
+lista_roupas[4] = 'Camiseta5'
+lista_roupas[5] = 'Óculos6'
+lista_roupas[6] = 'Croped7'
+lista_roupas[7] = 'Camisa8'
+lista_roupas[8] = 'Bermuda9'
+lista_roupas[9] = 'Meia10'
 
-//lógica da aplicação
-if (massa < 16) {
-    classificacao = 'Baixo peso, muito grave!'
-} else if (massa >= 16 && massa < 17) {
-    classificacao = 'Baixo peso, grave.'
-} else if (massa >= 17 && massa < 18.5) {
-    classificacao = 'Baixo peso.'
-} else if (massa >= 18.5 && massa < 25) {
-    classificacao = 'Peso normal.'
-} else if (massa >= 25 && massa < 30) {
-    classificacao = 'Sobrepeso.'
-} else if (massa >= 30 && massa < 35) {
-    classificacao = 'Obesidade grau I'
-} else if (massa >= 35 && massa < 40) {
-    classificacao = 'Obesidade grau II'
-} else {
-    classificacao = 'Obesidade grau III'
-}
-
-//resultado exibido para o usuario
-document.write(nome + ', você possui índice de massa corporal igual a ' + massa + ', sendo classificado como: ' + classificacao)
+console.log(lista_roupas2)

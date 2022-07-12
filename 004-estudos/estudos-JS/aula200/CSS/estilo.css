@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header{
     text-align: center;
     background-color: lightgrey;
@@ -30,22 +34,14 @@ main{
     width: 900px;
     margin: 25px auto;
     padding: 25px;
+    font-family: monospace;
 }
 
-main ol.descricoes{
-    margin-left: 25px;
-    list-style: inside;
-    margin: 10px;
-}
-
-section.resultado{
-    background-color: greenyellow;
-    width: 400px;
-    margin: 10px auto;
-    padding: 10px;
-    text-align: justify;
-}
-
-section.resultado h2{
+main section{
+    margin: 15px;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgb(204, 83, 83);
 }
+

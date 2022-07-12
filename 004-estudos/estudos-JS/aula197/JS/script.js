@@ -9,7 +9,7 @@ function calcular(tipo, valor) {
         if(valor === '+' || valor === '-' || valor === '*' || valor === '/' || valor === '.') {
             document.getElementById('resultado').value += valor
         }
-
+        //processa o calculo e mostra o valor
         if(valor === '=') {
             var valor_campo = eval(document.getElementById('resultado').value)
             document.getElementById('resultado').value = valor_campo
