@@ -4,48 +4,52 @@
 }
 
 header{
-    text-align: center;
-    background-color: lightgrey;
     height: 35px;
+    background-color: lightgray;
     line-height: 35px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 header a{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
     font-weight: bold;
 }
 
-header a:hover{
-    text-decoration: underline;
+section{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin: auto;
 }
 
-h1{
-    margin-top: 40px;
+section input{
+    margin: 50px auto;
+    height: 30px;
+    border-radius: 10px;
+    width: 220px;
+    padding: 5px;
+    border: none;
+    background-color: #c9c9c9;
     text-align: center;
 }
 
-main{
-    background-color: lightgray;
-    width: 900px;
-    margin: 25px auto;
-    padding: 25px;
+section input.normal{
+    background-color: #c9c9c9;
 }
 
-main ol.descricoes{
-    margin-left: 25px;
-    list-style: inside;
-    margin: 10px;
-}
-
-section.resultado{
-    background-color: greenyellow;
-    width: 400px;
-    margin: 10px auto;
-    padding: 10px;
-    text-align: justify;
-}
-
-section.resultado h2{
+div#botao{
     text-align: center;
+    margin: 15px auto;
+}
+
+.aceito{
+    background-color: #49bd49;
+}
+
+.naoAceito{
+    background-color: #c24646;
+    color: white;
 }
